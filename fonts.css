@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'GothamPro-Medium';
+  src:
+
+    url('./fonts/gothampro-medium.eot'), /* IE 9 Compatibility Mode */
+    url('./fonts/gothampro-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+    url('./fonts/gothampro-medium.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./fonts/gothampro-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+    url('./fonts/gothampro-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./fonts/gothampro-medium.svg#gothampro-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
