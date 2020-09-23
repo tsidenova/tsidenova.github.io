@@ -1,0 +1,162 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	background-image: url(./Background.png);
+	margin: 0 auto;
+}
+
+html {
+  min-width: 199px;
+  max-width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.section__firstpage {
+	padding-left: 30px;
+	padding-top: 50px;
+}
+
+.subtitle {
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.firstpage__text {
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	margin-top: 0;
+}
+
+.level {
+	font-size: 43px;
+	color: white;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+#level__light,
+#level__medium,
+#level__hard {
+	cursor: pointer;
+}
+
+.firstpage__button {
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+	background-color: #D62B2E;
+	cursor: pointer;
+	width: 352px;
+	height: 95px;
+}
+.img__card1 {
+	position: absolute;
+	left: 726.33px;
+	top: 150px;
+}
+
+.img__card2 {
+	position: absolute;
+	left: 850px;
+	top: 165px;;
+}
+
+.section__levellight,
+.section__levelmedium,
+.section__levelhard {
+	display: none;
+}
+
+.section__disappear {
+	display: none;
+}
+
+.table {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.section__tablemedium {
+	height: 100vh;
+	width: 700px;
+	margin: auto;
+}
+
+.section__tablehard {
+	height: 100vh;
+	width: 1150px;
+	margin: auto;
+}
+
+.section__tablelight {
+	height: 100vh;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.card {
+  transition: 0.6s;
+  transform-style: preverse-3d;
+  position: relative;
+}
+
+.frontside {
+  backface-visibility: hidden;
+  z-index: 2;
+}
+
+.card__hover {
+	filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+	transform: rotate(-3.08deg);
+}
+
+.backside{
+  transform: rotateY(180deg);
+}
+
+.backcard {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 610px) and (max-width: 1400px) {
+	.frontside {
+		height: 240px;
+		width: 160px;
+	}
+
+	.backside {
+		height: 240px;
+		width: 160px;
+	}
+
+	.section__tablemedium {
+		width: 600px;
+	}
+
+	.section__tablehard {
+		width: 950px;
+	}
+}
+
+.newelement {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
